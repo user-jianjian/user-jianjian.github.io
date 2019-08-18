@@ -1,0 +1,147 @@
+/*------------------------------导航栏部分-------------------------------------*/
+#homePage-nav{
+    position:fixed;
+    width:100%;
+    height:8%;
+    background-color:black;
+    z-index:4;
+}
+
+#icon{
+    color:white;
+    font-size:2.5em;
+    margin:0;
+    border:0;
+}
+
+#register{
+    color:white;
+    position:absolute;
+    left:85%;
+    top:30%;
+    font-size:1.5em;
+}
+
+#signIn{
+    color:white;
+    position:absolute;
+    left:90%;
+    top:30%;
+    font-size:1.5em;
+}
+
+#hr{
+    position:relative;
+    top:1%;
+    margin:0;
+}
+
+/*------------------------------横幅部分-------------------------------------*/
+
+
+
+#streamer{
+    position:absolute;
+
+    width:100%;
+    height:25%;
+    top:40%;
+
+    background-image: linear-gradient(to right, #fefefe,#000000,#fefefe);
+    opacity:0.7;
+
+    z-index:2;
+}
+
+.upStreamer{
+    /*position:absolute;*/
+    z-index:3;
+    color:white;
+    text-align: center;
+    position:relative;
+    top:20%;
+}
+
+#streamer h2{
+    font-size:2em;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+#streamer p{
+    font-size:1.5em;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+#backgroundPic{
+
+    /*形状大小外边框*/
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+
+    /*位置*/
+    position:absolute;
+    top:8%;
+    left:10%;
+    right:10%;
+
+    background-color:#c8c8c8;
+
+    /*解决图片之间的间隙问题（也可以把所有图片标签放在一行）*/
+    font-size:0;
+
+}
+
+
+.bck-imgs{
+
+    /*为所有图片加上边框*/
+    border: solid black;
+}
+
+/*以下代码都是解决图片的位置问题*/
+.bck-imgs-7{
+
+    position:absolute;
+    top:40%;
+    left:-10%;
+    z-index:1;
+
+}
+.bck-imgs-8{
+    position:absolute;
+    top:0;
+    left:5%;
+    z-index:0;
+}
+.bck-imgs-2{
+    position:absolute;
+    top:5%;
+    left:26.6%;
+}
+.bck-imgs-3{
+    position:absolute;
+    top:0;
+    left:66.2%;
+}
+.bck-imgs-5{
+    position:absolute;
+    top:70%;
+    left:11.6%;
+}
+.bck-imgs-1{
+    position:absolute;
+    top:70%;
+    left:32.6%;
+}
+.bck-imgs-6{
+    position:absolute;
+    top:80%;
+    left:53.6%;
+    z-index:1;
+}
+.bck-imgs-4{
+    position:absolute;
+    left:65.6%;
+    top:50%;
+}
