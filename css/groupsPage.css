@@ -1,0 +1,48 @@
+#groups-streamer{
+    position:absolute;
+    left:33%;
+    top:11%;
+    width:34%;
+    height:8%;
+    background-image: linear-gradient(to right, #fefefe,#000000,#fefefe);
+}
+#groups-streamer h1{
+    color:white;
+    text-align:center;
+    position:relative;
+    top:-18%;
+}
+
+.groups-displays{
+    width:20%;
+    height:60%;
+    border:1px solid #646464;
+    position:absolute;
+    top:30%;
+    background-color:#b5b5b5;
+}
+
+.groups-display{
+    width:90%;
+    height:70%;
+    background-color:#858384;
+    margin:5% auto;
+    text-align:center;
+}
+
+.groups-displays h1{
+    text-align:center;
+
+}
+
+.groups-display a{
+    font-size:8em;
+    color:white;
+    display:block;
+    line-height:200%;
+
+}
+
+html,body{
+    height:100%;
+}
